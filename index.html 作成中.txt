@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- ビューポート設定を追加 -->
+<title>今日のおすすめの動画</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+    
+<body>
+    <div class="container">
+        
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="pyscript.html">PyScriptVer</a>
+        <a href="cluster_analysis.html">ClusterAnalysis</a>
+    </nav>
+
+        <br>
+        <label for="food-select">食べたいアイスを選んでください：</label>
+        <select id="food-select">
+            <option value="チョコレートアイス">チョコレートアイス</option>
+            <option value="バニラアイス">バニラアイス</option>
+            <option value="抹茶アイス">抹茶アイス</option>
+        </select>
+        <br>
+        <label for="colour-input">好きな色を選んでください（赤、青、黄色）※半角数値で入力：</label>
+        <input type="colour" id="colour-input">
+        <br>
+        <button onclick="checkFortune()">運勢をチェック</button>
+        <p id="result-output"></p>
+        
+    <nav>
+     <a href="index.html">Home</a>
+      <a href="pyscript.html">PyScriptVer</a>
+      <a href="cluster_analysis.html">ClusterAnalysis</a>
+    </nav>
+    </div>    
+
+    <script src="app.js"></script>
+
+</body>
+</html>
