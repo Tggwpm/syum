@@ -3,7 +3,7 @@
             var number = parseInt(document.getElementById('number-input').value, 10);
             var result = "凶"; // デフォルトの値
 
-            if (ice === "キャラメルリボン" && number === 1) {
+            if (ice === "チョコレートアイス" && number === 1) {
                 result = "チンチラ";
                
             } else if (ice === "キャラメルリボン" && number === 2) {
