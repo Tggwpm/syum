@@ -6,13 +6,13 @@
             if (ice === "チョコレートアイス" && number === 1) {
                 result = "チンチラ";
                
-            } else if (ice === "キャラメルリボン" && number === 2) {
+            } else if (ice === "チョコレートアイス" && number === 2) {
                 result = "ムササビ";
                
-            } else if (ice === "キャラメルリボン" && number === 3) {
+            } else if (ice === "チョコレートアイス" && number === 3) {
                 result = "カワウソ";
                
-            } else if (ice === "キャラメルリボン" && number === 4) {
+            } else if (ice === "チョコレートアイス" && number === 4) {
                 result = "ポメラニアン";
                
             } else if (ice === "コットンキャンディ" && number === 1) {
