@@ -3,13 +3,13 @@
             var number = parseInt(document.getElementById('number-input').value, 10);
             var result = "凶"; // デフォルトの値
 
-            if (food === "チョコレートアイス" && number === 1) {
+            if (food === "キャラメルリボン" && number === 1) {
                 result = "チンチラ";
-            } else if (food === "チョコレートアイス" && number === 2) {
+            } else if (food === "キャラメルリボン" && number === 2) {
                 result = "ムササビ";
-            } else if (food === "チョコレートアイス" && number === 3) {
+            } else if (food === "キャラメルリボン" && number === 3) {
                 result = "カワウソ";
-            } else if (food === "バニラアイス" && number === 1) {
+            } else if (food === "キャラメルリボン" && number === 1) {
                 result = "ポメラニアン";
             } else if (food === "バニラアイス" && number === 2) {
                 result = "サル";
