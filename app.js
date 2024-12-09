@@ -1,5 +1,5 @@
    function checkFortune() {
-            var food = document.getElementById('food-select').value;
+            var ice = document.getElementById('ice-select').value;
             var number = parseInt(document.getElementById('number-input').value, 10);
             var result = "凶"; // デフォルトの値
 
