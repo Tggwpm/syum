@@ -15,40 +15,40 @@
             } else if (ice === "チョコレートアイス" && number === 4) {
                 result = "ポメラニアン";
                
-            } else if (ice === "コットンキャンディ" && number === 1) {
+            } else if (ice === "バニラアイス" && number === 1) {
                 result = "サル";
                
-            } else if (ice === "コットンキャンディ" && number === 2) {
+            } else if (ice === "バニラアイス" && number === 2) {
                 result = "ハリネズミ";
                
-            } else if (ice === "コットンキャンディ" && number === 3) {
+            } else if (ice === "バニラアイス" && number === 3) {
                 result = "ハムスター";
                
-            } else if (ice === "コットンキャンディ" && number === 4) {
+            } else if (ice === "バニラアイス" && number === 4) {
                 result = "ヘビ";
                
-            } else if (ice === "いちごみるく" && number === 1) {
+            } else if (ice === "ストロベリーアイス" && number === 1) {
                 result = "インコ";
                
-      　　　} else if (ice === "いちごみるく" && number === 2) {
+      　　　} else if (ice === "ストロベリーアイス" && number === 2) {
                 result = "トラ";
                
-      　　　} else if (ice === "いちごみるく" && number === 3) {
+      　　　} else if (ice === "ストロベリーアイス" && number === 3) {
                 result = "カバ";
                
-      　　　} else if (ice === "いちごみるく" && number === 4) {
+      　　　} else if (ice === "ストロベリーアイス" && number === 4) {
                 result = "ペンギン";
                
-      　　　} else if (ice === "ポッピングシャワー" && number === 1) {
+      　　　} else if (ice === "ブルーベリーアイス" && number === 1) {
                 result = "シロクマ";
                
-      　　　} else if (ice === "ポッピングシャワー" && number === 2) {
+      　　　} else if (ice === "ブルーベリーアイス" && number === 2) {
                 result = "アザラシ";
 
-      　　　} else if (ice === "ポッピングシャワー" && number === 3) {
+      　　　} else if (ice === "ブルーベリーアイス" && number === 3) {
                 result = "キツネ";
 
-      　　　} else if (ice === "ポッピングシャワー" && number === 4) {
+      　　　} else if (ice === "ブルーベリーアイス" && number === 4) {
                 result = "パンダ";
       
             document.getElementById('result-output').innerText = "今日のあなたにおすすめの動物の動画は【" + result + "】です";
