@@ -11,13 +11,13 @@
                 result = "カワウソ";
             } else if (food === "キャラメルリボン" && number === 1) {
                 result = "ポメラニアン";
-            } else if (food === "バニラアイス" && number === 2) {
+            } else if (food === "コットンキャンディ" && number === 2) {
                 result = "サル";
-            } else if (food === "バニラアイス" && number === 3) {
+            } else if (food === "コットンキャンディ" && number === 3) {
                 result = "ハリネズミ";
-            } else if (food === "抹茶アイス" && number === 1) {
+            } else if (food === "コットンキャンディ" && number === 1) {
                 result = "ハムスター";
-            } else if (food === "抹茶アイス" && number === 2) {
+            } else if (food === "コットンキャンディ" && number === 2) {
                 result = "ヘビ";
             } else if (food === "抹茶アイス" && number === 3) {
                 result = "インコ";
