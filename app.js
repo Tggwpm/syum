@@ -1,25 +1,25 @@
    function checkFortune() {
-            var food = document.getElementById('colour-select').value;
+            var food = document.getElementById('food-select').value;
             var number = parseInt(document.getElementById('number-input').value, 10);
             var result = "凶"; // デフォルトの値
 
-            if (food === "チョコレートアイス" && colour === 赤) {
+            if (food === "チョコレートアイス" && number === 1) {
                 result = "チンチラ";
-            } else if (food === "チョコレートアイス" && colour === 青) {
+            } else if (food === "チョコレートアイス" && number === 2) {
                 result = "ムササビ";
-            } else if (food === "チョコレートアイス" && colour === 黄色) {
+            } else if (food === "チョコレートアイス" && number === 3) {
                 result = "カワウソ";
-            } else if (food === "バニラアイス" && colour === 赤) {
+            } else if (food === "バニラアイス" && number === 1) {
                 result = "ポメラニアン";
-            } else if (food === "バニラアイス" && colour === 青) {
+            } else if (food === "バニラアイス" && number === 2) {
                 result = "サル";
-            } else if (food === "バニラアイス" && colour === 黄色) {
+            } else if (food === "バニラアイス" && number === 3) {
                 result = "ハリネズミ";
-            } else if (food === "抹茶アイス" && colour === 赤) {
+            } else if (food === "抹茶アイス" && number === 1) {
                 result = "ハムスター";
-            } else if (food === "抹茶アイス" && colour === 青) {
+            } else if (food === "抹茶アイス" && number === 2) {
                 result = "ヘビ";
-            } else if (food === "抹茶アイス" && colour === 黄色) {
+            } else if (food === "抹茶アイス" && number === 3) {
                 result = "インコ";
             }
 
