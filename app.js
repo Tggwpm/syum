@@ -23,5 +23,5 @@
                 result = "カワウソ";
             }
 
-            document.getElementById('result-output').innerText = "あなたにおすすめなのは【" + result + "】です";
+            document.getElementById('result-output').innerText = "あなたにおすすめなのは【" + result + "】の動画です";
         }
