@@ -1,7 +1,7 @@
  function checkFortune() {
             var food = document.getElementById('food-select').value;
             var number = parseInt(document.getElementById('number-input').value, 10);
-            var result = "いろんなのをみよう"; // デフォルトの値
+            var result = "いろんな動物"; // デフォルトの値
 
             if (food === "チョコレートアイス" && number === 1) {
                 result = "チンチラ";
